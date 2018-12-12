@@ -1,0 +1,42 @@
+{
+	"tags": [2014, 2016, 2017, 2018, "Ongoing", "Research"],
+	"displayTags" : ["Ongoing", 2018, 2017, 2016, 2014],
+	"projects": [
+		{
+			"title": "Single Shot Segmenter",
+			"id": "yolact",
+			"tags": ["Ongoing", "Research"],
+			"description": "A realtime instance segmenter that is currently 4 times faster than the current state of the art and 2 times faster than the previous state of the art, and will only improve. It's still in progress because we need to improve our small object performance to be viable on COCO, but our medium and large object performance is comparable to that of the former state of the art."
+		},
+		{
+			"title": "3D Software Renderer",
+			"id": "softrend",
+			"tags": [2018],
+			"description": "A software renderer I made as part of ECS175 (Computer Graphics), but went completely overboard on. While the project only required you to do some simple vertex-based shading and render a tetrahedron, that was boring. So instead I implemented the full OpenGL shader pipeline myself (or at least the part I of it I've used before). That is, vertex shaders and fragment shaders and all the automatic interpolation and evaluation that goes on between the two. I did this in C++ with SDL2 (and OpenGL for just glDrawPixels), and all the user-defined shaders are completely arbitrary. Other than the fact that you're writing your shader in C++ and not GLSL, you wouldn't notice the difference between my library and OpenGL."
+		},
+		{
+			"title": "Proton: Positivity Generator",
+			"id": "proton",
+			"tags": [2017],
+			"description": "My project for a 24-hour hackathon (HackDavis). It acted as a fully independent assistant (that used alexa in the background, but we made the wake word \"proton\" with some trickery), and used markov chains (specifically trigrams) to generate compliments. This involved a lot of the AWS stack including AWS Lambda and EC2."
+		},
+		{
+			"title": "Handwritten Math Equation Solver",
+			"id": "chad",
+			"tags": [2016],
+			"description": "A handwritten math problem solver using our own OCR system and a lot of neural networks. It supports stacked operations, all arithmetic operations, and long division."
+		},
+		{
+			"title": "Vura",
+			"id": "vura",
+			"tags": [2016],
+			"description": "A 3D voxel-based engine featuring lua scripting, animations, lighting, terrain generation, cloud generation, a gui library, a noise library, efficient entity collision, and more that I can't remember off the top of my head. Made in C++ with SDL and OpenGL."
+		},
+		{
+			"title": "Ghoulcrest",
+			"id": "ghoulcrest",
+			"tags": [2014],
+			"description": "A game I made to familiarize myself with Javascript. It's procedurally generated and has fully-featured, spell, particle, and entity systems implemented. Currently you can spawn and shoot chickens. Looks fun huh?"
+		}
+	]
+}
