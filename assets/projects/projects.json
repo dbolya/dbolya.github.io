@@ -1,42 +1,145 @@
 {
-	"tags": [2014, 2016, 2017, 2018, "Ongoing", "Research"],
-	"displayTags" : ["Ongoing", 2018, 2017, 2016, 2014],
 	"projects": [
 		{
-			"title": "Single Shot Segmenter",
+			"titleShort": "This Website",
+			"title": "dbolya.github.io",
+			"id": "website",
+			"favorite": false,
+			"year": 2021,
+			"type": "Project",
+			"links": {
+				"Website": "https://dbolya.github.io/",
+				"Github": "https://github.com/dbolya/dbolya.github.io"
+			},
+			"description": "",
+			"tags": ["Javascript"]
+		},
+		{
+			"titleShort": "TIDE: Errors in Object Detection",
+			"title": "TIDE: A General Toolbox for Identifiying Object Detection Errors",
+			"id": "tide",
+			"favorite": true,
+			"year": 2020,
+			"type": "Research",
+			"venue": "ECCV",
+			"honors": "Spotlight",
+			"links": {
+				"Website": "https://dbolya.github.io/tide/",
+				"Github": "https://github.com/dbolya/tide", 
+				"Paper": "https://arxiv.org/pdf/2008.08115.pdf"
+			},
+			"description": "",
+			"tags": ["Deep Learning", "Computer Vision", "Object Detection", "Instance Segmentation", "Analysis", "Python"]
+		},
+		{
+			"titleShort": "Likelihood Landscapes",
+			"title": "Likelihood Landscapes: A Unifying Principle Behind Many Adversarial Defences",
+			"id": "likelihood-landscapes",
+			"favorite": false,
+			"year": 2020,
+			"type": "Research",
+			"venue": "ECCV",
+			"workshop": "Adversarial Robustness in the Real World",
+			"links": {
+				"Paper": "https://arxiv.org/pdf/2008.11300.pdf"
+			},
+			"description": "",
+			"tags": ["Deep Learning", "Adversarial Robustness", "Analysis", "Python"]
+		},
+		{
+			"titleShort": "YOLACT++",
+			"title": "Yolact++: Better Real-time Instance Segmentation",
+			"id": "yolact-pp",
+			"favorite": false,
+			"year": 2020,
+			"type": "Research",
+			"venue": "TPAMI",
+			"links": {
+				"Github": "https://github.com/dbolya/yolact",
+				"Paper": "https://arxiv.org/pdf/1912.06218.pdf"
+			},
+			"description": "",
+			"tags": ["Deep Learning", "Computer Vision", "Real-Time", "Instance Segmentation", "Object Detection", "Python"]
+		},
+		{
+			"titleShort": "YOLACT",
+			"title": "Yolact: Real-Time Instance Segmentation",
 			"id": "yolact",
-			"tags": ["Ongoing", "Research"],
-			"description": "A realtime instance segmenter that is currently 4 times faster than the current state of the art and 2 times faster than the previous state of the art, and will only improve. It's still in progress because we need to improve our small object performance to be viable on COCO, but our medium and large object performance is comparable to that of the former state of the art. Check out the github repo at https://github.com/dbolya/yolact for more details."
+			"favorite": true,
+			"year": 2019,
+			"venue": "ICCV",
+			"honors": "Oral",
+			"type": "Research",
+			"links": {
+				"Github": "https://github.com/dbolya/yolact",
+				"Paper": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Bolya_YOLACT_Real-Time_Instance_Segmentation_ICCV_2019_paper.pdf"
+			},
+			"description": "",
+			"tags": ["Deep Learning", "Computer Vision", "Real-Time", "Instance Segmentation", "Object Detection", "Python"]
 		},
 		{
 			"title": "3D Software Renderer",
 			"id": "softrend",
-			"tags": [2018],
-			"description": "A software renderer I made as part of ECS175 (Computer Graphics), but went completely overboard on. While the project only required you to do some simple vertex-based shading and render a tetrahedron, that was boring. So instead I implemented the full OpenGL shader pipeline myself (or at least the part of it I've used before). That is, vertex shaders, fragment shaders, and all the automatic interpolation and evaluation that goes on between the two. I did this in C++ with SDL2 (and OpenGL for just glDrawPixels), and all the user-defined shaders are completely arbitrary. Other than the fact that you're writing your shader in C++ and not GLSL, you wouldn't notice the difference between my library and OpenGL."
+			"favorite": false,
+			"year": 2018,
+			"type": "Project",
+			"links": {
+
+			},
+			"description": "",
+			"tags": ["C++", "Computer Graphics"]
 		},
 		{
 			"title": "Proton: Positivity Generator",
 			"id": "proton",
-			"tags": [2017],
-			"description": "My project for a 24-hour hackathon (HackDavis). It acted as a fully independent assistant (that used alexa in the background, but we made the wake word \"proton\" with some trickery), and used markov chains (specifically trigrams) to generate compliments. This involved a lot of the AWS stack including AWS Lambda and EC2."
+			"venue": "HackDavis",
+			"favorite": false,
+			"year": 2017,
+			"type": "Project",
+			"links": {
+				"Github": "https://github.com/dbolya/CompBot",
+				"Devpost": "https://devpost.com/software/proton-positivity-generator"
+			},
+			"description": "",
+			"tags": ["Javascript"]
 		},
 		{
 			"title": "Handwritten Math Equation Solver",
 			"id": "chad",
-			"tags": [2016],
-			"description": "A handwritten math problem solver using our own OCR system and a lot of neural networks. It supports stacked operations, all arithmetic operations, and long division. It uses a 5 step pipeline to segment out the problems (using contours), classify the problem type (using CNNs), identify key operands (using CNNs), parse those operands (contours and CNNs), and finally solve the problem (using a math expression library). This won several awards for CS at the Sacramento STEM Fair and we presented it as finalists at ISEF 2016."
+			"favorite": false,
+			"year": 2016,
+			"type": "Research",
+			"venue": "ISEF",
+			"honors": "Finalist",
+			"links": {
+				"Abstract": "https://abstracts.societyforscience.org/Home/FullAbstract?ProjectId=11726"
+			},
+			"description": "A handwritten math problem solver using our own OCR system and a lot of neural networks. It supports stacked operations, all arithmetic operations, and long division. It uses a 5 step pipeline to segment out the problems (using contours), classify the problem type (using CNNs), identify key operands (using CNNs), parse those operands (contours and CNNs), and finally solve the problem (using a math expression library). This won several awards for CS at the Sacramento STEM Fair and we presented it as finalists at ISEF 2016.",
+			"tags": ["C++", "Deep Learning", "Computer Vision"]
 		},
 		{
 			"title": "Vura",
 			"id": "vura",
-			"tags": [2016],
-			"description": "A 3D voxel-based engine featuring lua scripting, animations, lighting, terrain generation, cloud generation, a gui library, a noise library, efficient entity collision, and more that I can't remember off the top of my head. Made in C++ with SDL and OpenGL."
+			"favorite": true,
+			"year": 2016,
+			"type": "Project",
+			"links": {
+				"Code": "https://bitbucket.org/mcleoddylan0121/voxelgame/src/master/"
+			},
+			"description": "A 3D voxel-based engine featuring lua scripting, animations, lighting, terrain generation, cloud generation, a gui library, a noise library, efficient entity collision, and more that I can't remember off the top of my head. Made in C++ with SDL and OpenGL.",
+			"tags": ["C++", "Computer Graphics", "Video Game"]
 		},
 		{
 			"title": "Ghoulcrest",
 			"id": "ghoulcrest",
-			"tags": [2014],
-			"description": "A game I made to familiarize myself with Javascript. It's procedurally generated and has fully-featured, spell, particle, and entity systems implemented. Currently you can spawn and shoot chickens. Looks fun huh? Well I still have the game somewhere, so I'll probably upload it here later."
+			"favorite": false,
+			"year": 2014,
+			"type": "Project",
+			"links": {
+
+			},
+			"description": "A game I made to familiarize myself with Javascript. It's procedurally generated and has fully-featured, spell, particle, and entity systems implemented. Currently you can spawn and shoot chickens. Looks fun huh? Well I still have the game somewhere, so I'll probably upload it here later.",
+			"tags": ["Javascript", "Video Game"]
 		}
 	]
 }
