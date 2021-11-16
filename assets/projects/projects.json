@@ -1,6 +1,23 @@
 {
 	"projects": [
 		{
+			"titleShort": "PARC: Scalable Diverse Model Selection",
+			"title": "Scalable Diverse Model Selection for Accessible Transfer Learning",
+			"id": "parc",
+			"favorite": true,
+			"year": 2020,
+			"type": "Research",
+			"venue": "NeurIPS",
+			"honors": "Poster",
+			"links": {
+				"Website": "https://dbolya.github.io/parc/",
+				"Github": "https://github.com/dbolya/parc", 
+				"Paper": "https://arxiv.org/abs/2111.06977"
+			},
+			"description": "",
+			"tags": ["Deep Learning", "Computer Vision", "Object Detection", "Transfer Learning" , "Analysis", "Python"]
+		},
+		{
 			"titleShort": "This Website",
 			"title": "dbolya.github.io",
 			"id": "website",
@@ -26,7 +43,7 @@
 			"links": {
 				"Website": "https://dbolya.github.io/tide/",
 				"Github": "https://github.com/dbolya/tide", 
-				"Paper": "https://arxiv.org/pdf/2008.08115.pdf"
+				"Paper": "https://arxiv.org/abs/2008.08115"
 			},
 			"description": "",
 			"tags": ["Deep Learning", "Computer Vision", "Object Detection", "Instance Segmentation", "Analysis", "Python"]
@@ -41,7 +58,7 @@
 			"venue": "ECCV",
 			"workshop": "Adversarial Robustness in the Real World",
 			"links": {
-				"Paper": "https://arxiv.org/pdf/2008.11300.pdf"
+				"Paper": "https://arxiv.org/abs/2008.11300"
 			},
 			"description": "",
 			"tags": ["Deep Learning", "Adversarial Robustness", "Analysis", "Python"]
@@ -56,7 +73,7 @@
 			"venue": "TPAMI",
 			"links": {
 				"Github": "https://github.com/dbolya/yolact",
-				"Paper": "https://arxiv.org/pdf/1912.06218.pdf"
+				"Paper": "https://arxiv.org/abs/1912.06218"
 			},
 			"description": "",
 			"tags": ["Deep Learning", "Computer Vision", "Real-Time", "Instance Segmentation", "Object Detection", "Python"]
