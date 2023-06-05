@@ -1,7 +1,87 @@
 {
 	"projects": [
 		{
-			"titleShort": "PARC: Scalable Diverse Model Selection",
+			"titleShort": "Hiera Transformer",
+			"title": "Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles",
+			"id": "hiera",
+			"favorite": true,
+			"year": 2023,
+			"type": "Research",
+			"venue": "ICML",
+			"honors": "Oral",
+			"links": {
+				"Github": "https://github.com/facebookresearch/hiera", 
+				"Paper": "https://arxiv.org/abs/2306.00989"
+			},
+			"description": "",
+			"tags": ["Deep Learning", "Computer Vision", "Efficiency", "Transformers", "Backbone", "Python"]
+		},
+		{
+			"titleShort": "ZipIt!",
+			"title": "ZipIt! Merging Models from Different Tasks without Training",
+			"id": "zipit",
+			"favorite": false,
+			"year": 2023,
+			"type": "Research",
+			"venue": "Arxiv",
+			"honors": "",
+			"links": {
+				"Github": "https://github.com/gstoica27/ZipIt", 
+				"Paper": "https://arxiv.org/abs/2305.03053"
+			},
+			"description": "",
+			"tags": ["Deep Learning", "Computer Vision", "Model Merging", "Analysis", "Python"]
+		},
+		{
+			"titleShort": "ToMe for Stable Diffusion",
+			"title": "Token Merging for Fast Stable Diffusion",
+			"id": "tomesd",
+			"favorite": true,
+			"year": 2023,
+			"type": "Research",
+			"venue": "CVPR Workshop (ECV)",
+			"honors": "Oral",
+			"links": {
+				"Github": "https://github.com/dbolya/tomesd", 
+				"Paper": "https://arxiv.org/abs/2303.17604"
+			},
+			"description": "",
+			"tags": ["Generative AI", "Deep Learning", "Computer Vision", "Efficiency", "Transformers", "Python"]
+		},
+		{
+			"titleShort": "Token Merging",
+			"title": "Token Merging: Your ViT But Faster",
+			"id": "tome",
+			"favorite": true,
+			"year": 2023,
+			"type": "Research",
+			"venue": "ICLR",
+			"honors": "Oral (Top 5%)",
+			"links": {
+				"Website": "https://research.facebook.com/blog/2023/2/token-merging-your-vit-but-faster/",
+				"Github": "https://github.com/facebookresearch/ToMe", 
+				"Paper": "https://arxiv.org/abs/2210.09461"
+			},
+			"description": "",
+			"tags": ["Deep Learning", "Computer Vision", "Efficiency", "Transformers", "Python"]
+		},
+		{
+			"titleShort": "Hydra Attention",
+			"title": "Hydra attention: Efficient attention with many heads",
+			"id": "hydra",
+			"favorite": true,
+			"year": 2022,
+			"type": "Research",
+			"venue": "ECCV Workshop (CADL)",
+			"honors": "Best Paper",
+			"links": {
+				"Paper": "https://arxiv.org/abs/2209.07484"
+			},
+			"description": "",
+			"tags": ["Deep Learning", "Computer Vision", "Efficiency", "Transformers", "Python"]
+		},
+		{
+			"titleShort": "Scalable Diverse Model Selection",
 			"title": "Scalable Diverse Model Selection for Accessible Transfer Learning",
 			"id": "parc",
 			"favorite": true,
