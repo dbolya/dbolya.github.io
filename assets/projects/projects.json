@@ -1,7 +1,7 @@
 {
 	"projects": [
 		{
-			"titleShort": "Hiera Transformer",
+			"titleShort": "Hiera",
 			"title": "Hiera: A Hierarchical Vision Transformer without the Bells-and-Whistles",
 			"id": "hiera",
 			"favorite": true,
