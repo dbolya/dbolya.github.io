@@ -14,7 +14,7 @@ Token Merging (**ToMe**) speeds up transformers by _merging redundant tokens_, w
 |                             | 50 | 33.02 | 1.65 (**1.87x** _faster_) | 0.89 (**3.83x** _less_) |
 |                             | 60 | 33.37 | 1.52 (**2.03x** _faster_) | 0.60 (**5.68x** _less_) |
 
-Even with more than half of the tokens merged (60%!), ToMe for SD still produces images close to the originals, while being _**2x** faster_ and using _**~5.7x** less memory_. Moreover, ToMe is not another efficient reimplementation of transformer modules. Instead, it actually _reduces_ the total work necessary to generate an image, so it can function _in conjunction_ with efficient implementations.
+Even with more than half of the tokens merged (60%!), ToMe for SD still produces images close to the originals, while being _**2x** faster and using **~5.7x** less memory_. Moreover, ToMe is not another efficient reimplementation of transformer modules. Instead, it actually _reduces_ the total work necessary to generate an image, so it can function _in conjunction_ with efficient implementations.
 
 ## Citation
 
